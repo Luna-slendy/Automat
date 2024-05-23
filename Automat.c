@@ -4,7 +4,7 @@
 
 int *ellementizer(long long NumT, int *plen);
 int rewriter(int arr[], int len);
-int numberizer(int len, int arr[]);
+long long numberizer(int len, int arr[]);
 int *append(int *arr, int len, int elem);
 
 int main() {
@@ -92,7 +92,7 @@ int rewriter(int arr[], int len) {
     return 0;
 }
 
-int numberizer(int plen, int arr[]) {
+long long numberizer(int plen, int arr[]) {
     int len = plen;
     long long res = 0;
     int i = 0;
